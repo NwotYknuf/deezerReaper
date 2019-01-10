@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>2.3.1</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>System.Web.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0"/>
+  </ItemGroup>
+</Project>
